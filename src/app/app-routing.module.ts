@@ -9,7 +9,7 @@ import { AddToCartComponent } from './add-to-cart/add-to-cart.component';
 import { UserProfileComponent } from './user-profile/user-profile.component';
 
 const routes: Routes = [
-  {path: 'sneaker-shop', component: ShopAllComponent},
+  {path: '', component: ShopAllComponent},
   {path: 'sneaker-shop/nike-shoes', component: NikeShoesComponent},
   {path: 'sneaker-shop/puma-shoes', component: PumaShoesComponent},
   {path: 'sneaker-shop/adidas-shoes', component: AdidasShoesComponent},
